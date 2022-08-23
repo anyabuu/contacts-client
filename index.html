@@ -71,6 +71,12 @@
           background-color: var(--color-primary-100);
           padding: 10px;
       }
+
+      .input__message {
+        color: darkred;
+        font-style: italic;
+      }
+
   </style>
 </head>
 <body>
@@ -93,16 +99,19 @@
 </ul>
 
 <form action='' class='form'>
+
   <label class='input'>
     Contact name
     <input type='text' class='input__input' name='name'>
     <span class='input__message'></span>
   </label>
+
   <label class='input'>
     Contact number
     <input type='text' class='input__input' name='number'>
     <span class='input__message'></span>
   </label>
+
   <button type='submit'>
     Send
   </button>
